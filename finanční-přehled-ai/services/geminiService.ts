@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { BudgetStatus, MonthlySummary, Transaction } from '../types';
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = AIzaSyAiVitayPx2wAukeQiD8doZFHktvTn2faQ;
 
 if (!API_KEY) {
     throw new Error("API_KEY environment variable not set");
